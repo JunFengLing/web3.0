@@ -8,7 +8,7 @@ export const TransactionContext = React.createContext<ITransactionContext | any>
 
 declare global {
   interface Window {
-    ethereum: import('ethers').providers.ExternalProvider;
+    ethereum: any;
   }
 };
 
